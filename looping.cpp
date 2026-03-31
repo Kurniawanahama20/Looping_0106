@@ -37,3 +37,27 @@ int main(){
     cout<<"Bilangan acakl do-white yang terakhir ="<<x <<endl;
     cout<<endl;
 }
+
+//logika not
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"Masukkan nilai Matemaatika = ";
+    cin>>nilM;
+    cout<<"Masukkan nilai Bahasa Inggris = ";
+    cin>>nilB;
+
+    rerata = (nilB+nilM)/2;
+
+    if (!(rerata < 60) )
+        status = "lulus";
+    else
+        status = "tidak lulus";
+
+    cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
+    
+}

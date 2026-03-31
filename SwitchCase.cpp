@@ -23,3 +23,9 @@ void pilihanJurusan() {
             namajurusan = "Teknologi Informasi";
             statuskuota = "Tersedia (15 kursi)";
             break;
+        case 2:
+             namajurusan = "Teknologi Informasi";
+            statuskuota = "Kuota Penuh!";
+            break;
+        case 3:
+

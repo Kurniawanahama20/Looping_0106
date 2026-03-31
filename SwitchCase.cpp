@@ -14,3 +14,12 @@ void input() {
     cout << "3. Sistem Informasi" <<endl;
     cout << "----------------------------------" << endl;
     cin >> kodeJurusan;
+}
+
+//prosedur untuk pengecekan kondisi
+void pilihanJurusan() {
+    switch (kodeJurusan) {
+        case 1:
+            namajurusan = "Teknologi Informasi";
+            statuskuota = "Tersedia (15 kursi)";
+            break;

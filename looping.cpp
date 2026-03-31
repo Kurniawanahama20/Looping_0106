@@ -90,5 +90,12 @@ int main(){
 using namespace std;
 
 int main(){
-    float 
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"Masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"masukkan nilai Bahasa Inggris = ";
+    cin>>nilB;
+    
 }

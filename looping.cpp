@@ -10,6 +10,16 @@ int main(){
     for(int i=0;i<=4;i++){
         cout<<"Teknologi Informasi UMY"<<endl;
     }
-    
-}
+    cout<<endl;
+    //untuk mendapatkanb urutan angka acak yang berbeda
+    srand(time(0));
 
+    //perulangan dengan WHILE
+    cout<<"PERULANGAN WHILE"<<endl;
+    x = 1 + rand()%10;
+
+    while(x<=5){
+        cout<<"bilangan acak ="<<x <<endl;
+        x = rand()%10;
+    }
+}

@@ -24,8 +24,15 @@ void pilihanJurusan() {
             statuskuota = "Tersedia (15 kursi)";
             break;
         case 2:
-             namajurusan = "Teknologi Informasi";
+            namajurusan = "Teknologi Informasi";
             statuskuota = "Kuota Penuh!";
             break;
         case 3:
-
+            namajurusan = "Teknologi Informasi";
+            statuskuota = "Tersedia (5 kursi)";
+            break;
+        default:
+            namajurusan = "Tidak Diketahui";
+            statuskuota = "Error: Kode Tidak Valid";
+    }
+}
